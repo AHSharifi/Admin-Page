@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <menu id="menu">
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <h1 id="panelText">Panel</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16" style="margin-left: auto; margin-right: 10px; color: #fff; cursor: pointer;"
+                id="menuIcon">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </div>
+        <ul>
+            <li id="item1" class="active">
+                <svg style="margin-right: 5px;" id="item1Icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path
+                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                </svg>
+                <p class="para">Home</p>
+            </li>
+            <li id="item2">
+                <svg style="margin-right: 5px;" id="item2Icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-list-task" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z" />
+                    <path
+                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z" />
+                    <path fill-rule="evenodd"
+                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z" />
+                </svg>
+                <p class="para">List</p>
+            </li>
+            <li id="item3">
+                <svg style="margin-right: 5px;" id="item3Icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+                <p class="para">Users</p>
+            </li>
+
+            <li id="item4">
+                <svg style="margin-right: 5px; margin-left: 2px;" id="exit" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                    <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                </svg>
+                <p class="para">Logut</p>
+            </li>
+        </ul>
+    </menu>
+
+    <div id="page1">
+        <div class="prof">
+            <div style="width: 100%; display: flex; align-items: center; flex-direction: column;">
+                <img src="asset/img/prof.jpg" alt="profile image">
+                <h1 style="font-weight: bold;">AHSharifi</h1>
+                <p>Role: Admin</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="page2" style="display: none;">
+        <table class="table table-dark table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th style="width: 50px;" class="text-center">ID</th>
+                    <th style="width: 300px;">Title</th>
+                    <th>Text</th>
+                    <th style="width: 350px;" class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Title</td>
+                    <td style="width: 700px;"><p style="width: 650px;" class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis.</p></td>
+                    <td class="text-center" style="display: flex; justify-content: center;">
+                        <form action="">
+                            <button id="edit" style="margin-right: 10px;">Edit</button>
+                        </form>
+                        <form action="">
+                            <button id="delete">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="page3" style="display: none;">
+        <table class="table table-dark table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th style="width: 50px;" class="text-center">ID</th>
+                    <th style="width: 200px;">Name</th>
+                    <th style="width: 200px;">Username</th>
+                    <th>Email</th>
+                    <th style="width: 150px;" class="text-center">Role</th>
+                    <th style="width: 350px;" class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Name</td>
+                    <td>Name123</td>
+                    <td>Name@email.com</td>
+                    <td class="text-center">Admin</td>
+                    <td class="text-center" style="display: flex; justify-content: center;">
+                        <form action="">
+                            <button id="edit" style="margin-right: 10px;">Edit Role</button>
+                        </form>
+                        <form action="">
+                            <button id="delete">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
